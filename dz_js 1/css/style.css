@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div.flex {
+    display: flex;
+    justify-content: center;
+    color: #6e6e6e;
+    margin-top: 70px;
+}
+
+.js {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.50);
+}
+
+.js b {
+    color: #f66161;
+}
+
+.photo {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 250px;
+    height: 250px;
+    opacity: 1;
+}
+
+.fon {
+    transform: rotate(30deg);
+    color: #ffeaa1;
+    font-size: 250px;
+    position: absolute;
+    bottom: 90px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 882px) {
+    .photo,.fon {
+        display: none;
+    }
+}
