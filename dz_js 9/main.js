@@ -46,7 +46,7 @@ document.body.appendChild(blocks());
 }
 // ---------------------------Таймер--------------------------------
 
-setTimeout(blocks, 3000, 1000);
-setTimeout(blocks2, 6000, 1000);
-setTimeout(blocks3, 9000, 1000);
-setTimeout(removeBlock, 12000, 1000);
+setTimeout(blocks, 2000, 1000);
+setTimeout(blocks2, 4000, 1000);
+setTimeout(blocks3, 6000, 1000);
+setTimeout(removeBlock, 8000, 1000);
