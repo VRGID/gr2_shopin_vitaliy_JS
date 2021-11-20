@@ -22,7 +22,7 @@ async function getResponse() {
               
         `
     }
-    for (let i = 0; i < key+1; i++) {
+    for (let i = 0; i < key + 1; i++) {
         let list = document.querySelectorAll('li')[i];
         let list2 = document.querySelectorAll('div')[i];
         list.style.textTransform = `capitalize`;
@@ -41,15 +41,12 @@ console.log(getResponse());
 
 
 function deletePost() {
-    let elem = document.getElementById("posts");
-    elem.remove();
+       let elem = document.getElementById("posts");
+       elem.remove();
 
 }
+
 function alertPost() {
-    let elem = document.getElementById("posts");
-    alert(elem.textContent);
+       let elem = document.getElementById("posts");
+       alert(elem.textContent);
 }
-
-
-
-
